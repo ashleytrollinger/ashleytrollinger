@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Nanum';
+    src: url('../../fonts/Nanum_Gothic/NanumGothic-Regular.ttf') format('truetype');
+}
+
+.contact-section {
+    background-color: #435334;
+    width: 100vw;
+    font-family: 'Nanum', sans-serif;
+    display: block;
+    align-items: center;
+}
+
+.contact-section h2 {
+    font-size: 7.5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-weight: bolder;
+    font-family: 'Playfair', sans-serif;
+    color: #f9f8f6;
+}
+
+.contact-section p {
+    font-size: 3vh;
+    color: #f9f8f6;
+}
+
+.hiddenD {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+.showD {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#contactform {
+    width: 72vw;
+    align-items: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactform input,
+#contactform textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #f9f8f6;
+    border-radius: 5px;
+    font-family: 'Nanum', sans-serif;
+    font-size: 2.5vh;
+}
+
+#contactform input[type='submit'] {
+    background-color: #f9f8f6;
+    color: #435334;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    max-width: fit-content;
+    align-items: center;
+}
+
+#contactform input[type='submit']:hover {
+    background-color: #c3d7b1;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-top: 0;
+}
+
+.icons img {
+    width: 10vh;
+    height: 10vh;
+    margin: 0 10px;
+    max-width: 100%;
+    height: auto;
+}

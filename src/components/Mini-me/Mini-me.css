@@ -1,0 +1,63 @@
+svg {
+    flex-shrink: 0;
+    width: 600px;
+    max-width: 90vw;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap");
+
+.screen-log {
+    visibility: hidden;
+    padding: 0;
+}
+
+/* Mini-me.css */
+
+/* ... Your existing CSS ... */
+
+/* Switch styles */
+.switch {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.switch .slider {
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s ease;
+}
+
+.switch.on {
+    background-color: #0073e6;
+    /* Dark blue background color */
+}
+
+.switch.on .slider {
+    transform: translateX(30px);
+}
+
+.switch.off {
+    background-color: #ccc;
+    /* Default background color */
+}
+
+.switch.off .slider {
+    transform: translateX(0);
+}
+
+/* Closed eye styles */
+.eye.closed {
+    /* Add your closed eye styles here */
+    /* For example, you can set opacity to 0 to simulate closed eyes */
+    opacity: 0;
+}

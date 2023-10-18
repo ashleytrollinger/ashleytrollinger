@@ -1,0 +1,31 @@
+#name-png {
+    width: 50%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1010px) {
+    header {
+        flex-direction: column;
+        /* Display the list items in a column */
+        align-items: center;
+        /* Center them horizontally */
+        width: 100%;
+    }
+
+    #name-png {
+        width: 100%;
+    }
+
+    #name-png img {
+        align-items: center;
+        text-align: center;
+        width: 90%;
+    }
+
+
+
+}

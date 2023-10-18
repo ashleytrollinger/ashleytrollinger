@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Nanum';
+    src: url('../../fonts/Nanum_Gothic/NanumGothic-Regular.ttf') format('truetype');
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    min-height: 80vh;
+}
+
+.pages {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.pages section {
+    min-height: 100vh;
+}
+
+/* Page Scroll Transitions */
+
+#MiniMe {
+    width: 60%;
+    float: left;
+}
+
+.intro-p {
+    font-family: 'Nanum', sans-serif;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    font-size: 3.25vh;
+    padding-top: 5vh;
+}
+
+.intro-p em {
+    font-weight: 600;
+}
+
+#experience {
+    background-color: #9EB384;
+    width: 100vw;
+}
+
+@media (max-width: 1010px) {
+
+    /* Stack MiniMe and intro-p on top of each other */
+    #MiniMe {
+        display: block;
+        width: 100%;
+    }
+
+    .intro-p {
+
+        padding: 0;
+        margin: 0;
+    }
+
+    .intro-p p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1011px) {
+
+    /* Center MiniMe and intro-p horizontally on the screen */
+    .body {
+        justify-content: center;
+    }
+
+    .intro-p {
+        width: 35%;
+        font-size: 5vh;
+    }
+
+}
