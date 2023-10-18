@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Rezi from '../../images/OfficialResume.pdf';
+import Certification from '../../images/Certification.pdf';
+
 import './Resume.css';
 function Resume() {
 
@@ -34,6 +36,12 @@ function Resume() {
                         <h3><span>Download my Resume</span></h3>
                     </a>
                 </div>
+                <div className='certification hidden'>
+                    <a href={Certification} target="_blank" rel="noopener noreferrer">
+                        <h5>Full-Stack Certification</h5>
+                    </a>
+                    <p>A 24-week intensive program focused on gaining skills in both front-end and back-end web development.</p>
+                </div>
                 <div className='skills'>
                     <div className='arrow-container hidden'>
                         <h5>Front-End Proficiencies</h5>
@@ -51,7 +59,7 @@ function Resume() {
                     </div>
                     <div className='arrow-container hidden'>
                         <h5>Back-End Proficiencies</h5>
-                         <ol>
+                        <ol>
                             <li>APIs ★★★</li>
                             <li>MySQL ★★★</li>
                             <li>Sequelize ★★★</li>
@@ -60,11 +68,11 @@ function Resume() {
                             <li>MongoDB ★★★</li>
                             <li>NodeJS ★★★</li>
                             <li>Express ★★★</li>
-                          
+
                         </ol>
                     </div>
                     <div className='arrow-container hidden'>
-                    <h5>Other Proficiencies</h5>
+                        <h5>Other Proficiencies</h5>
                         <ol>
                             <li>npm ★★★</li>
                             <li>version control/Git ★★★</li>
@@ -73,7 +81,7 @@ function Resume() {
                             <li>Figma ★☆☆</li>
                             <li>Microsoft Office ★★★</li>
                         </ol>
-                </div>
+                    </div>
                 </div>
             </section>
         </>

@@ -27,6 +27,7 @@
 
 .resume-section {
     font-family: 'Nanum', sans-serif;
+
 }
 
 .resume-section h2 {
@@ -63,14 +64,44 @@
 
 .arrow-container:nth-child(2) {
     transition-delay: 200ms;
-    background-color: #c0d0b0;
+    background-color: #afbea0;
 }
 
 .arrow-container:nth-child(3) {
     transition-delay: 600ms;
-    background-color: rgb(182, 199, 163);
+    background-color: rgb(158, 172, 141);
 }
 
+.certification {
+    background-color: #e8f6da;
+    padding: 3vw;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #43533475;
+    display: flex;
+    flex-direction: column;
+    margin: 0 3vh;
+    padding-top: .5vh;
+    margin-bottom: 1vh;
+}
+
+.certification a{
+    text-decoration: none;
+    color: black;
+}
+
+.certification a:hover{
+    text-decoration: underline;
+}
+.certification h5 {
+    font-size: 3vh;
+    margin: 1.3vh;
+    margin-bottom: .25vh;
+    font-weight: bolder;
+}
+
+.certification p{
+    font-size: 2.25vh;
+}
 
 .arrow-container ol {
     list-style-type: none;
