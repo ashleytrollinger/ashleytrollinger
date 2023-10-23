@@ -75,13 +75,13 @@
     padding: 0;
     margin: 1vh 0;
     text-align: center;
-    font-size: 1.5vh;
+    font-size: 1.75vh;
 }
 
 .skillli {
     display: flex;
     flex-direction: column;
-    background-color: #9EB384;
+    background-color: #8da076;
     padding: .5vh;
     border-radius: 6px;
     border: .5px solid #889b72;

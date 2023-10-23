@@ -56,19 +56,25 @@
 }
 
 #contactform input[type='submit'] {
-    background-color: #f9f8f6;
+    background-color: #f3f7fe;
     color: #435334;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
+    border-radius: 8px;
+    transition: .3s;
+    text-decoration: none;
+    margin: 0;
+    font-size: 3vh;
+    font-weight: bold;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    border: #435334 1px solid;
     max-width: fit-content;
-    align-items: center;
 }
 
 #contactform input[type='submit']:hover {
-    background-color: #c3d7b1;
+    background-color: #9EB284;
+    box-shadow: 0 0 0 5px #4f5b3f;
+    color: #fff;
 }
 
 .icons {
@@ -86,3 +92,16 @@
     max-width: 100%;
     height: auto;
 }
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 0;
+
+}
+
+

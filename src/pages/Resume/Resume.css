@@ -84,14 +84,15 @@
     margin-bottom: 1vh;
 }
 
-.certification a{
+.certification a {
     text-decoration: none;
     color: black;
 }
 
-.certification a:hover{
+.certification a:hover {
     text-decoration: underline;
 }
+
 .certification h5 {
     font-size: 3vh;
     margin: 1.3vh;
@@ -99,7 +100,7 @@
     font-weight: bolder;
 }
 
-.certification p{
+.certification p {
     font-size: 2.25vh;
 }
 
@@ -133,25 +134,26 @@
     margin-bottom: 2vh;
 }
 
+
+
 .link-to a {
+    background-color: #f3f7fe;
+    color: #435334;
+    border: none;
+    border-radius: 8px;
+    transition: .3s;
     text-decoration: none;
-    color: #fff;
-    background-color: #435334;
-    padding: .5vh 1vh;
-    border-radius: 65px;
-    transition: background-color 0.3s;
     margin: 0;
     font-size: 2vh;
-    position: relative;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    border: #435334 1px solid;
 }
 
 .link-to a:hover {
-    background-color: #313d26;
-}
-
-
-.link-to a span {
-    display: block;
+    background-color: #435334;
+    box-shadow: 0 0 0 5px #43533455;
+    color: #fff;
 }
 
 @media (min-width: 1011px) {

@@ -1,4 +1,6 @@
 import React from 'react';
+
+
 import Header from '../../components/Header/Header';
 import MiniMe from '../../components/Mini-me/Mini-me';
 import Resume from '../Resume/Resume';
@@ -7,6 +9,7 @@ import Contact from '../Contact/Contact';
 import './Welcome.css';
 
 function Home() {
+    
 
     return (
         <>

@@ -29,7 +29,7 @@ function Resume() {
 
             <section className='resume-section'>
                 <div className='hidden'>
-                    <h2>My Resume</h2>
+                    <h2>My Resumé</h2>
                 </div>
                 <div className='link-to hidden'>
                     <a href={Rezi} download>
