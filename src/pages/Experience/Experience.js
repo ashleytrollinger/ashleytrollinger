@@ -25,6 +25,14 @@ const projects = [
         repo: 'https://github.com/ashleytrollinger/girlsgowild',
         link: 'https://girlsgowild.vercel.app/',
         skills: ['JavaScript', 'React', 'CSS', 'Personal Project', 'Responsive Design', 'API']
+    },
+    {
+        name:'RVGloryHounds',
+        description: 'Promotional website for a group of pilots who do skywriting and fly-overs.',
+        details: 'Completely free-lance work, the websites main purpose was to promote their business as well as have a place to point potential customers.',
+        repo:'https://github.com/ashleytrollinger/GloryHounds',
+        link: 'https://gloryhounds.vercel.app/',
+        skills: ['JavaScript', 'React', 'CSS', 'Freelance', 'Responsive Design', 'Promotional', 'Graphic Design', 'Wireframes']
     }
     // Add more projects as needed
 ];
