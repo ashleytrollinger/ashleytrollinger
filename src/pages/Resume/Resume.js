@@ -40,7 +40,7 @@ function Resume() {
                     <a href={Certification} target="_blank" rel="noopener noreferrer">
                         <h5>Full-Stack Certification</h5>
                     </a>
-                    <p>A 24-week intensive program focused on gaining skills in both front-end and back-end web development.</p>
+                    <p>A 24-week intensive program focused on gaining skills in both front-end and back-end web development. Taken at The George Washington University Spring of 2023.</p>
                 </div>
                 <div className='skills'>
                     <div className='arrow-container hidden'>
@@ -82,6 +82,11 @@ function Resume() {
                             <li>Microsoft Office ★★★</li>
                         </ol>
                     </div>
+                </div>
+                <div className='freelance hidden'>
+                    <h5>Freelance Work</h5>
+
+                    <p>I am currently engaged in a freelance project where I am responsible for enhancing the user interface and updating dependency packages for a React-based application. You can track my work or request my services through my upwork account linked in the contact section.</p>
                 </div>
             </section>
         </>

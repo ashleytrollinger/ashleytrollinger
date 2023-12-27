@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import github from '../../images/github.png';
 import linked from '../../images/linked.png';
+import upwork from '../../images/upwork.png';
 
 import './Contact.css';
 function Contact() {
@@ -47,6 +48,9 @@ function Contact() {
                             <img src={github} alt='github icon'></img></a>
                         <a href='https://www.linkedin.com/in/ashley-trollinger-a3276826a/' target="_blank" rel="noopener noreferrer">
                             <img src={linked} alt='github icon'></img>
+                        </a>
+                        <a href='https://www.upwork.com/freelancers/~01a4210e8c39736f2e' target="_blank" rel="noopener noreferrer">
+                            <img src={upwork} alt='github icon'></img>
                         </a>
                     </div>
                 </div>

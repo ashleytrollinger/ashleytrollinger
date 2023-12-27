@@ -53,6 +53,8 @@
     box-shadow: 10px 5px 5px #43533475;
     padding-top: .5vh;
     margin-bottom: 1vh;
+    width: 34%;
+    margin-right: 2%;
 }
 
 .arrow-container h5 {
@@ -72,7 +74,8 @@
     background-color: rgb(158, 172, 141);
 }
 
-.certification {
+.certification,
+.freelance {
     background-color: #e8f6da;
     padding: 3vw;
     border-radius: 10px;
@@ -84,6 +87,10 @@
     margin-bottom: 1vh;
 }
 
+.freelance {
+    background-color: #c2dbaa;
+}
+
 .certification a {
     text-decoration: none;
     color: black;
@@ -93,16 +100,20 @@
     text-decoration: underline;
 }
 
-.certification h5 {
+.certification h5,
+.freelance h5 {
     font-size: 3vh;
     margin: 1.3vh;
     margin-bottom: .25vh;
     font-weight: bolder;
 }
 
-.certification p {
+.certification p,
+.freelance p {
     font-size: 2.25vh;
 }
+
+
 
 .arrow-container ol {
     list-style-type: none;
@@ -119,10 +130,12 @@
 @media (max-width:900px) {
     .skills {
         flex-direction: column;
+
     }
 
     .arrow-container {
         flex-direction: column;
+        width: 93%;
     }
 }
 

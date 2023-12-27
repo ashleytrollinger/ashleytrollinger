@@ -25,6 +25,14 @@ const projects = [
         repo: 'https://github.com/ashleytrollinger/girlsgowild',
         link: 'https://girlsgowild.vercel.app/',
         skills: ['JavaScript', 'React', 'CSS', 'Personal Project', 'Responsive Design', 'API']
+    },
+    {
+        name: 'RV Glory Hounds',
+        description: 'Promotional website for a group of pilots who do skywriting and fly-overs.',
+        details: 'Completely free-lance work, the websites main purpose was to promote their business as well as have a place to point potential customers.',
+        repo: 'https://github.com/ashleytrollinger/GloryHounds',
+        link: 'https://gloryhounds.vercel.app/',
+        skills: ['JavaScript', 'React', 'CSS', 'Freelance', 'Graphic Design', 'Wireframes', 'Responsive Design']
     }
     // Add more projects as needed
 ];
@@ -59,14 +67,14 @@ function Experience() {
             {projects.map((project, index) => (
                 <div key={index} className="project-div hiddenL">
                     <h3>{project.name}
-                    <div className="links">
-                        <a href={project.repo} target="_blank" rel="noopener noreferrer">
-                            💻📑Repo
-                        </a>
-                        <a href={project.link} target="_blank" rel="noopener noreferrer">
-                            Visit ➙
-                        </a>
-                    </div></h3>
+                        <div className="links">
+                            <a href={project.repo} target="_blank" rel="noopener noreferrer">
+                                💻📑Repo
+                            </a>
+                            <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                Visit ➙
+                            </a>
+                        </div></h3>
                     <hr></hr>
                     <p>{project.description}</p>
                     {expandedProject === index ? (
