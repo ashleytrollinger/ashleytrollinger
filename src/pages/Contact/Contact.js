@@ -41,7 +41,7 @@ function Contact() {
                         <input name="email" type="email" placeholder="Your Email" required />
                         <textarea name="comment" placeholder="Your Message" rows="3" required></textarea>
 
-                        <input value="Submit" type="submit" />
+                        <input value="Send" type="submit" />
                     </form>
                     <div className='icons'>
                         <a href='https://github.com/ashleytrollinger' target="_blank" rel="noopener noreferrer">

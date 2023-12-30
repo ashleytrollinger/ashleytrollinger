@@ -44,6 +44,10 @@
     justify-content: center;
 }
 
+#contactform textarea {
+    height: 20vh;
+}
+
 #contactform input,
 #contactform textarea {
     margin-bottom: 20px;

@@ -5,6 +5,7 @@
 header {
     display: flex;
     align-items: center;
+    background-color: #dad3c7;
 }
 
 @media (max-width: 1010px) {

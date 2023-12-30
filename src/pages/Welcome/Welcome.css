@@ -3,6 +3,10 @@
     src: url('../../fonts/Nanum_Gothic/NanumGothic-Regular.ttf') format('truetype');
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .body {
     display: flex;
     flex-direction: row;

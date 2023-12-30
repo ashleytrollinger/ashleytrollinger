@@ -9,7 +9,7 @@ import Contact from '../Contact/Contact';
 import './Welcome.css';
 
 function Home() {
-    
+
 
     return (
         <>
