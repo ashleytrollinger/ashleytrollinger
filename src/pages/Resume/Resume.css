@@ -14,6 +14,35 @@
     }
 }
 
+
+
+.projects-div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: .25vw 2vw;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #748c5d;
+    margin-bottom: 1vh;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.projects-div p {
+    font-size: 1.75vh;
+    margin: 0;
+    margin-top: .5vh;
+}
+
+.projects-div h3 {
+    font-size: 2.5vh;
+    font-weight: bolder;
+    margin-top: .5vh;
+    margin-bottom: 0;
+    font-weight: bolder;
+    color: #435334;
+}
+
 .hidden {
     opacity: 0;
     transform: translateX(-100%);
@@ -108,12 +137,32 @@
     font-weight: bolder;
 }
 
-.certification p,
+
 .freelance p {
     font-size: 2.25vh;
 }
 
+.gw {
+    background-color: #f3f7fe;
+    color: #435334;
+    border: none;
+    border-radius: 8px;
+    transition: .3s;
+    text-decoration: none;
+    margin: 0;
+    font-size: 2vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    margin-bottom: .5vh;
+    border: #435334 1px solid;
+    max-width: fit-content;
+}
 
+.gw:hover {
+    background-color: #9EB284;
+    box-shadow: 0 0 0 5px #4f5b3f;
+    color: #fff;
+}
 
 .arrow-container ol {
     list-style-type: none;

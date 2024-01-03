@@ -13,6 +13,33 @@ body {
     min-height: 80vh;
 }
 
+nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    margin-left: 2vw;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    margin-right: 20px;
+    /* Adjust spacing between nav items */
+    position: relative;
+    font-weight: bolder;
+}
+
+nav li:hover {
+    transform: translateY(-5px);
+    color: #425334;
+}
+
+
 .pages {
     display: grid;
     place-items: center;
@@ -66,6 +93,11 @@ body {
     .intro-p p {
         padding: 0;
         margin: 0;
+    }
+
+    nav {
+
+        margin: 2vh 4vh;
     }
 
     .body {
